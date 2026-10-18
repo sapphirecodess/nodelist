@@ -1,0 +1,28 @@
+.form {
+     display: inline-block; 
+     border: 1px solid #000; 
+     border-radius: 10px; 
+     padding: 8px; 
+     margin-bottom: 20px;
+}
+.controls { 
+    margin-bottom: 20px;
+}
+#tasks {
+    background: #e6e6fa; 
+    border-radius: 15px; 
+    padding: 20px;
+}
+.task {
+    border: 1px solid #000; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    background: #e6e6fa;
+}
+.task:last-child {
+    margin-bottom: 0;
+}
+.immediate::after {
+    content: " !"; color: red; font-weight: bold;
+}

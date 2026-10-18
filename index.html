@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Менеджер задач</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form">
+  Создание задачи<br>
+  Текст задачи<br>
+  <input type="text" id="newTask"><br>
+  <button id="add">Добавить задачу</button>
+</div>
+
+<div class="controls">
+  <button id="btn1">Сортировать по имени ↓</button>
+  <button id="btn2">Сортировать по имени ↑</button>
+  <button id="btn3">Оставить только срочные</button>
+  <input type="text" id="search" placeholder="Введите текст задачи">
+  <button id="btn4">Фильтровать по имени</button>
+  <button id="btn5">Сбросить</button>
+</div>
+
+<div id="tasks">
+  <div class="task"><span>Первая задача</span></div>
+  <div class="task"><span>Вторая задача</span></div>
+  <div class="task"><span>Третья задача</span></div>
+  <div class="task"><span>Четвертая задача</span></div>
+  <div class="task immediate"><span>Пятая задача</span></div>
+  <div class="task"><span>Шестая задача</span></div>
+  <div class="task"><span>Седьмая задача</span></div>
+  <div class="task"><span>Восьмая задача</span></div>
+  <div class="task immediate"><span>Девятая задача</span></div>
+  <div class="task"><span>Десятая задача</span></div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
